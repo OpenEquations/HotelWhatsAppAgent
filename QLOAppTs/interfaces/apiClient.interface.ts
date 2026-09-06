@@ -1,0 +1,3 @@
+interface APILibrary {
+  apiLibrary: any;
+}
