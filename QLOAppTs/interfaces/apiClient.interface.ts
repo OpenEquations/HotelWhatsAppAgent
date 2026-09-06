@@ -1,3 +1,3 @@
-interface APILibrary {
+export interface APILibrary {
   apiLibrary: any;
 }

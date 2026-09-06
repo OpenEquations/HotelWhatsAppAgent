@@ -1,6 +1,7 @@
 import { AxiosApiClient } from "./inflastructure/apiClients/AxiosApiClient";
+import { APILibrary } from "./interfaces/apiClient.interface";
 
-class QLOAPPTs implements APILibrary {
+export class QLOAPPTs implements APILibrary {
     apiLibrary: any;
 
     constructor(apiLibrary: any) {
@@ -8,3 +9,4 @@ class QLOAPPTs implements APILibrary {
         this.apiLibrary = axiosClient;
     }
 }
+
