@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Production build outputs
+dist/
+build/
+out/
+
+# TypeScript compilation artifacts
+*.tsbuildinfo
+
+# Coverage directory used by testing tools (Jest, Vitest, etc.)
+coverage/
+
+# Environment variables (contains sensitive secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
